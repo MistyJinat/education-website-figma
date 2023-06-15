@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 1px;   
+
+}
+
+
+nav ul li{
+    margin: 0 16px;
+
+}
+
+nav ul li a{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-decoration: none;
+color: #868686;
+padding:30px 15px ;
+
+}
+nav ul li a:hover{
+    background-color: #1CAB55;
+    transition: 0.4s;
+    color: #ffffff;
+
+}
+.hero-section{
+    background: linear-gradient(90.83deg, #1CAB55 20.48%,
+     rgba(28, 171, 85, 0.9) 67.78%, #005622 99.87%);
+    
+position: absolute;
+width: 1440px;
+height: 515px;
+left: 0px;
+
+}
+
+.hero-section .image-first{
+position: absolute;
+width: 417px;
+height: 417px;
+left: 732px;
+top: 59px;
+right: 291px;
+}
+
+.hero-text h1{
+    position:absolute;
+    text-transform: uppercase;
+    height: 162px;
+    left: 290px;
+    top: 124px; 
+    color:#ffffff; 
+    padding-right:650px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+  
+    
+}
+.hero-text h1 span{
+    color: rgba(61, 61, 114, 1); 
+}
+
+.button{
+    position: absolute;
+    padding: 15px;
+    left: 290px;
+    top: 350px; 
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: rgba(28, 171, 85, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+.who-we-are{
+
+    position: absolute;
+    width: 1440px;
+    height: 563px;
+    left: -2px;
+    top: 574px;
+}
+
+/*=============================================================*/
+
+
+
+/*wo we are section start*/
+.second-section{
+    position: absolute;
+    width: 1440px;
+    height: 563px;
+    left: -2px;
+    top: 574px;
+}
+
+.second-section h1{
+    text-transform: uppercase;
+    position: absolute;
+    left: 654px;
+    top: 45px;
+font-family: 'Bebas Neue',sans-serif;
+font-style: bold;
+font-weight: 400;
+font-size: 35px;
+line-height:60px;
+
+color: #1CAB55;
+}
+
+.second-section p{
+position: absolute;
+left: 450px;
+top: 98px;
+text-align: center;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height:27px;
+
+color: rgba(28, 171, 85, 1);
+;
+
+}
+
+.image-second{
+width: 612px;
+height: 421px;
+left: 415px;
+top: 150px;
+position: absolute;
+overflow: hidden;
+
+
+box-sizing: border-box;
+border: 3px solid #1CAB55;
+border-radius: 15px;
+position: absolute;
+width: 610px;
+height: 348px;
+left: 414px;
+top: 145px;
+
+}
+
+
+/*=============================================================*/
+
+
+
+
+
+/*our services section start*/
+
+.services{
+    background-color: rgba(28, 171, 85, 1);
+    position: absolute;
+    width: 1440px;
+    height: 566px;
+    left: 1px;
+    top: 1137px;
+}
+
+.services h1{
+    position: absolute;
+    text-transform: uppercase;
+    width: 147px;
+    height: 60px;
+    left: 600px;
+    top: 63px;
+    
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 171.02%;
+    
+    color: #FFFFFF;
+}
+
+.services p{
+    position: absolute;
+height: 27px;
+left: 500px;
+top: 120px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+
+color:rgba(255, 255, 255, 1);
+
+}
+
+/*grid work*/
+.box-container{
+position: absolute;
+left: 376px;
+top: 204px;
+display: grid;
+grid-template-columns:repeat(4,1fr);
+grid-template-rows: repeat(4,1fr);
+gap: 6rem;
+justify-content: space-between;
+
+}
+
+.box img{
+    left: 575px;
+    padding: 10px;
+    border-radius :50%;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+.box h2{
+    position: absolute;
+    height: 19px;
+    padding-top: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px; 
+    text-align: center;   
+    color: #FFFFFF;
+
+
+}
+
+
+
